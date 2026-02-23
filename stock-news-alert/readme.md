@@ -26,34 +26,6 @@ A Python automation project that monitors stock price changes and sends real-tim
 4. Format headlines and summaries
 5. Send alerts as SMS to the user
 
-## 🔑 Setup Instructions
-
-### 1️⃣ Clone the repository
-
-```
-git clone <your-repo-link>
-cd stock-news-alert
-```
-
-### 2️⃣ Install dependencies
-
-```
-py -3.13 -m pip install requests twilio
-```
-
-### 3️⃣ Add your API keys
-
-Edit `main.py` and insert:
-
-* Alpha Vantage API key
-* News API key
-* Twilio SID & Auth Token
-
-### 4️⃣ Run the program
-
-```
-python main.py
-```
 
 ## 📩 Example SMS Output
 
