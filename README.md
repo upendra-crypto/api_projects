@@ -1,133 +1,34 @@
-# 🌦️ Rain Alert SMS Notifier
+# 🌐 Python API Projects
 
-This project checks the weather forecast using the OpenWeatherMap API and sends an SMS alert via Twilio if rain is predicted.
+This repository contains a collection of small Python projects that use public APIs to fetch and process real-world data.
 
-It includes two Python scripts:
+## 📂 Projects Included
 
-* **Local version** (for testing on your computer)
-* **Deployment version** (for cloud hosting like PythonAnywhere)
+* 📈 Stock News Alert (Stock + News + SMS alerts)
+* 🌦 Weather Data Fetcher
+* ❓ Quiz API App
 
----
+More projects will be added as I continue learning API integration.
 
-## 📌 Features
+## 🛠 Technologies Used
 
-* Fetches weather forecast data from OpenWeatherMap
-* Detects rain conditions automatically
-* Sends SMS notification using Twilio
-* Supports secure deployment with environment variables
+*  Python
+*  Requests library
+*  REST APIs
+*  JSON data handling
 
----
+## ▶ How to Run
 
-## 📂 Project Files
+1. Clone the repository
+2. Go to the project folder
+3. Install required packages
+4. Add your API keys
+5. Run the Python file
 
-### 1️⃣ `openweathermap_twilio.py`
+## 🎯 Purpose
 
-* Designed for **local execution**
-* API keys stored directly in the script
-* Good for learning and testing
-
-### 2️⃣ `python_anywhere.py`
-
-* Designed for **deployment**
-* Uses environment variables for security
-* Includes proxy configuration for cloud platforms
+This repo is for practicing API usage, automation, and building real-world Python projects.
 
 ---
 
-## ⚙️ Requirements
-
-Install dependencies:
-
-```bash
-pip install requests twilio
-```
-
----
-
-## 🔑 Setup
-
-### 1. Get API keys
-
-* Create an account at **OpenWeatherMap**
-* Create an account at **Twilio**
-* Get:
-
-  * OpenWeatherMap API key
-  * Twilio Account SID
-  * Twilio Auth Token
-  * Twilio phone number
-
----
-
-### 2. Run Locally
-
-Edit the file and add your keys:
-
-```python
-api_key = "YOUR_KEY"
-account_sid = "YOUR_SID"
-auth_token = "YOUR_TOKEN"
-```
-
-Run:
-
-```bash
-python openweathermap_twilio.py
-```
-
----
-
-### 3. Run on PythonAnywhere / Server
-
-Set environment variables:
-
-```bash
-export OWM_API_KEY="your_key"
-export AUTH_TOKEN="your_token"
-export https_proxy="your_proxy"
-```
-
-Then run:
-
-```bash
-python python_anywhere.py
-```
-
----
-
-## 📲 Example SMS
-
-```
-It's going to rain today. Remember to bring an ☔️
-```
-
----
-
-## 🎯 Purpose of the Project
-
-This project demonstrates:
-
-* API integration in Python
-* JSON data handling
-* Automation scripts
-* SMS notification systems
-* Secure deployment practices
-
----
-
-## 👨‍💻 Author
-
-Created by **Upendra** as part of learning API integration and automation in Python.
-
----
-
-## ⭐ Future Improvements
-
-* Add email alerts
-* Add GUI dashboard
-* Support multiple cities
-* Deploy as a scheduled cloud job
-
----
-
-If you like this project, consider starring the repository ⭐
+⭐ Thanks for visiting 🙂
