@@ -14,6 +14,9 @@ streamlit run app.py
 Opens at `http://localhost:8501` in your browser.
 
 > ⚠️ Uses the Amadeus **free test API** — results may be limited and searches may take longer than usual.
+> GUI-OUTPUT:
+> <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b2d7e34c-3516-456d-a184-ce0a91567426" />
+
 
 ### CLI — Headless Script
 One-shot search, ideal for automation or cron jobs:
@@ -117,3 +120,4 @@ The app runs perfectly on localhost. Deploy only if you need remote access or 24
 | **Streamlit Community Cloud** | Free, connects to GitHub repo directly |
 | **Railway / Render** | Simple setup, free tier available |
 | **PythonAnywhere** | Good for scheduling `main.py` as a cron job |
+
